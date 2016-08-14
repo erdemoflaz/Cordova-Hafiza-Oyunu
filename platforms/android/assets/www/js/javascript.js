@@ -4,9 +4,9 @@
 // best in full screen, works on phones/tablets (min height for game is 500px..) enjoy ;)
 // Follow me on Codepen
 
-(function(){
-	
+
 	var Memory = {
+
 
 		init: function(cards){
 			this.$game = $(".game");
@@ -108,7 +108,7 @@
 				frag += '<div class="card" data-id="'+ v.id +'"><div class="inside">\
 				<div class="front"><img src="'+ v.img +'"\
 				alt="'+ v.name +'" /></div>\
-				<div class="back"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/codepen-logo.png"\
+				<div class="back"><img src="https://pbs.twimg.com/profile_images/713117845480153089/0L6p36m9_400x400.jpg"\
 				alt="Codepen" /></div></div>\
 				</div>';
 			});
@@ -136,7 +136,7 @@
 			name: "jquery",
 			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/jquery-logo.png",
 			id: 4
-		}, 
+		},
 		{
 			name: "javascript",
 			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/js-logo.png",
@@ -178,8 +178,7 @@
 			id: 12
 		},
 	];
-    
+
 	Memory.init(cards);
 
 
-})();

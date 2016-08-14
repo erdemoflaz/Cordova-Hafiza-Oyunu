@@ -18,6 +18,18 @@ body {
   font-family: "Arial", sans-serif;
 }
 
+.login {
+
+  padding: 30px;
+  border-radius: 5px;
+  color: #fff;
+  background: #27ae60;
+  border: 0;
+  font-size: 35px;
+  margin-top: 20%;
+  margin-left: 40%;
+}
+
 .wrap {
   position: relative;
   height: 100%;
